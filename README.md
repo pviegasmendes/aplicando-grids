@@ -10,11 +10,20 @@
 - Estructura aplicando bootstrap, Flex y Grid
 - Google Fonts
 - Animaciones ulizando librerias:
+```sh
 https://wowjs.uk/
+```
+```sh
 https://animate.style/
+```
+```sh
 https://tobiasahlin.com/moving-letters/#3
+```
 
-
+### URL
+```sh
+https://pviegasmendes.github.io/proyecto-coderhouse/
+```
 
 ### Repositorio
 

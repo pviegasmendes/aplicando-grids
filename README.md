@@ -7,9 +7,13 @@
 ### Caracteristicas
 
 - Maquetacion HTML semantico
-- Estructura aplicando Flex y Grid
+- Estructura aplicando bootstrap, Flex y Grid
 - Google Fonts
-- Animaciones en css ulizando librerias Animate y Wow
+- Animaciones ulizando librerias:
+https://wowjs.uk/
+https://animate.style/
+https://tobiasahlin.com/moving-letters/#3
+
 
 
 ### Repositorio

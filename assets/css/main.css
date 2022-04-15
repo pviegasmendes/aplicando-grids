@@ -1,0 +1,70 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tipografia */
+body {
+  font-family: "Poppins", sans-serif;
+  color: #E6F4F1;
+}
+
+/* Theme */
+body {
+  background: #0083B0;
+}
+
+section {
+  margin-top: 40px;
+}
+
+/* Header */
+header {
+  background-color: #0083B0;
+  text-transform: capitalize;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+header nav #navbarNav {
+  flex-direction: row-reverse;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Formulario */
+form {
+  color: #121212;
+}
+
+/* Jumbo */
+.home-jumbo {
+  display: flex;
+}
+.home-jumbo div .herotext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+/* Cards */
+.card {
+  color: #121212;
+}
+
+/* Home */
+.section__habilidades img {
+  width: 100%;
+}
+
+.habilidades__item {
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */

@@ -8,7 +8,17 @@
 
 - Maquetacion HTML semantico
 - Estructura aplicando bootstrap, Flex y Grid
-- Google Fonts
+- Google Fonts Poppins
+```
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+```
+```
+font-family: 'Poppins', sans-serif;
+```
+
+
 - Animaciones ulizando librerias:
 ```sh
 https://wowjs.uk/
@@ -18,12 +28,17 @@ https://animate.style/
 ```
 ```sh
 https://tobiasahlin.com/moving-letters/#3
+<<<<<<< HEAD
 ```
 
 ### URL
 ```sh
 https://pviegasmendes.github.io/proyecto-coderhouse/
 ```
+=======
+- Hojas de estilo con SASS
+
+>>>>>>> aplicando-sass
 
 ### Repositorio
 

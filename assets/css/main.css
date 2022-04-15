@@ -20,18 +20,6 @@ section {
   margin-top: 40px;
 }
 
-/* Header */
-header {
-  background-color: #0083B0;
-  text-transform: capitalize;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-header nav #navbarNav {
-  flex-direction: row-reverse;
-}
-
 /* Footer */
 .footer {
   text-align: center;
@@ -41,6 +29,13 @@ header nav #navbarNav {
 /* Formulario */
 form {
   color: #121212;
+}
+form .btn {
+  background-color: #EC992A;
+  color: #E6F4F1;
+}
+form .btn:hover {
+  background-color: #E6F4F1;
 }
 
 /* Jumbo */
@@ -67,4 +62,16 @@ form {
 
 .habilidades__item {
   text-align: center;
+}
+
+/* Header */
+header {
+  background-color: #0083B0;
+  text-transform: capitalize;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+header nav #navbarNav {
+  flex-direction: row-reverse;
 }/*# sourceMappingURL=main.css.map */

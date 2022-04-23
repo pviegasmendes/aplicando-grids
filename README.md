@@ -28,17 +28,12 @@ https://animate.style/
 ```
 ```sh
 https://tobiasahlin.com/moving-letters/#3
-<<<<<<< HEAD
 ```
 
 ### URL
 ```sh
 https://pviegasmendes.github.io/proyecto-coderhouse/
 ```
-=======
-- Hojas de estilo con SASS
-
->>>>>>> aplicando-sass
 
 ### Repositorio
 

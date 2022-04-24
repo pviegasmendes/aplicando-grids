@@ -42,7 +42,10 @@ body {
 }
 
 section {
-  margin-top: 40px;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .text {
@@ -51,6 +54,7 @@ section {
 
 /* Header */
 header {
+  height: 60px;
   font-weight: 400;
   font-size: 20px;
   background-color: #0083B0;
@@ -122,10 +126,6 @@ form {
 
 .habilidades__item {
   text-align: center;
-}
-
-section {
-  min-height: 90vh;
 }
 
 .cards {

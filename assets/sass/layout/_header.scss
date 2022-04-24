@@ -1,5 +1,6 @@
 /* Header */
 header {
+  height: 60px;
   .navbar-brand{
     @include fontParameters (800, 24px);
   }

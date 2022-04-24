@@ -89,6 +89,9 @@ form {
   align-items: center;
   height: 500px;
 }
+.home-jumbo div img {
+  width: 100%;
+}
 
 /* Cards */
 .card {

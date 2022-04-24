@@ -1,11 +1,4 @@
 /* Formulario */
 form {
-    color: $colorNeutro;
-    .btn {
-        background-color: $colorAcento;
-        color: $colorSecundario;
-        &:hover {
-            background-color: $colorSecundario;
-        }
-    }
+    color: map-get($color, neutro);
 }

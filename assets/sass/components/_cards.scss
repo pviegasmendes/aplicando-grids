@@ -1,4 +1,4 @@
 /* Cards */
 .card {
-    color: $colorNeutro;
+    color: map-get($color, neutro);
 }

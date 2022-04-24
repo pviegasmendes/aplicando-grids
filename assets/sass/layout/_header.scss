@@ -1,6 +1,10 @@
 /* Header */
 header {
-  background-color: $colorPrimario;
+  .navbar-brand{
+    @include fontParameters (800, 24px);
+  }
+  @include fontParameters (400, 20px,);
+  background-color: map-get($color, primario);
   text-transform: capitalize;
   position: sticky;
   top: 0;

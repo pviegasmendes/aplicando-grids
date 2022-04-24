@@ -1,9 +1,13 @@
 /* Theme */
 body {
-    background: $colorPrimario
+    background: map-get($color, primario)
 }
 
 section {
     margin-top: 40px;
+}
+
+.text {
+    justify-content: end;
 }
 

@@ -1,15 +1,17 @@
 // Imports
 
 @import "utilities/variables";
+@import "utilities/mixins";
 @import "base/reset";
 @import "base/typo";
 @import "themes/theme";
+@import "layout/header";
 @import "layout/footer";
 @import "layout/forms";
 @import "components/jumbo";
 @import "components/cards"; 
+@import "components/buttons";
 @import "views/home";
-@import "layout/header";
 
 
 

@@ -1,5 +1,29 @@
 /* Tipografia */
 body {
   font-family: "Poppins", sans-serif;
-  color: $colorSecundario;
+  color: map-get($color, secundario);
 }
+
+i {
+  font-size: 100px;
+}
+
+.text--big {
+  @include fontParameters (400, 48px,);
+}
+
+.text--small {
+  @include fontParameters (400, 26px,);
+}
+.text--enfasis {
+  @include fontParameters (600, auto);
+  font-style: italic
+}
+
+.correo {
+  color: map-get($color, secundario)
+}
+
+
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");

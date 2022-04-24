@@ -1,0 +1,6 @@
+@mixin fontParameters ($fontWight, $fontSize){
+    font-weight: $fontWight;
+    font-size: $fontSize;
+     
+};
+

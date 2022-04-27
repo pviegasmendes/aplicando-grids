@@ -1,4 +1,14 @@
 /* Cards */
 .card {
-    color: map-get($color, neutro);
+    color: map-get($color, neutro); 
+    .metodo__img {
+        padding-left: 1rem;
+    }
+    &:hover {
+        opacity: 90%;
+        cursor: pointer;
+    }
+
 }
+
+

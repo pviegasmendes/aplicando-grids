@@ -63,12 +63,22 @@ header {
   top: 0;
   z-index: 100;
 }
+
 header .navbar-brand {
   font-weight: 800;
   font-size: 24px;
 }
+
 header nav #navbarNav {
   flex-direction: row-reverse;
+}
+
+header nav #navbarNav .a--contacto {
+  color: #EC992A;
+}
+
+header nav #navbarNav .a--contacto:hover {
+  color: #E6F4F1;
 }
 
 /* Footer */
@@ -86,6 +96,7 @@ form {
 .home-jumbo {
   display: flex;
 }
+
 .home-jumbo div .herotext {
   display: flex;
   flex-direction: column;
@@ -93,6 +104,7 @@ form {
   align-items: center;
   height: 500px;
 }
+
 .home-jumbo div img {
   width: 100%;
 }
@@ -102,12 +114,22 @@ form {
   color: #121212;
 }
 
+.card .metodo__img {
+  padding-left: 1rem;
+}
+
+.card:hover {
+  opacity: 90%;
+  cursor: pointer;
+}
+
 /* Botones */
-.btn, .btn--error, .btn--exito {
+.btn, .btn--exito, .btn--error {
   background-color: #EC992A;
   color: #E6F4F1;
 }
-.btn:hover, .btn--error:hover, .btn--exito:hover {
+
+.btn:hover, .btn--exito:hover, .btn--error:hover {
   background-color: #E6F4F1;
 }
 
@@ -134,4 +156,5 @@ form {
 
 .titularText {
   margin-bottom: 160px;
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */

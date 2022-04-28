@@ -121,7 +121,6 @@ form {
 }
 
 .card:hover {
-  opacity: 90%;
   cursor: pointer;
 }
 
@@ -141,6 +140,14 @@ form {
 
 .btn--error {
   background-color: #B81A0E;
+}
+
+.correo:hover {
+  color: #EC992A;
+}
+
+.card__btn {
+  background-color: #0083B0;
 }
 
 /* Home */

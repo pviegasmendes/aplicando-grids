@@ -92,6 +92,9 @@ header nav #navbarNav .a--contacto:hover {
 /* Formulario */
 form {
   color: #121212;
+  background-color: #E6F4F1;
+  padding: 40px;
+  border-radius: 5px;
 }
 
 /* Jumbo */

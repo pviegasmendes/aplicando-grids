@@ -58,14 +58,14 @@
                 <h1 class="articulos__item--titulo wow animate__animated animate__fadeIn">Contacto</h1>
                 <form>
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" required>
                         <label for="floatingInput">Nombre</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingPassword" placeholder="Password">
+                        <input type="email" class="form-control" id="floatingPassword" placeholder="Password" required>
                         <label for="floatingPassword">Correo</label>
                     </div>
-                    <select class="form-select mb-3" aria-label="Default select example">
+                    <select class="form-select mb-3" aria-label="Default select example" required>
                         <option selected>Tipo de proyecto</option>
                         <option value="1">Diseño UX/UI</option>
                         <option value="2">Desarrollo Web</option>
@@ -79,7 +79,7 @@
                     <div class="form-check d-flex justify-content-center mb-4">
                         <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
                         <label class="form-check-label" for="form4Example4">
-                            Suscribir al newsletter
+                            <p>Suscribir al newsletter</p> 
                         </label>
                     </div>
                     <button type="submit" class="btn btn-block mb-4">Enviar</button>

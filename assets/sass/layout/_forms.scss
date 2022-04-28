@@ -1,4 +1,7 @@
 /* Formulario */
 form {
     color: map-get($color, neutro);
+    background-color: map-get($map: $color, $key: secundario);
+    padding: 40px;
+    border-radius: 5px;
 }

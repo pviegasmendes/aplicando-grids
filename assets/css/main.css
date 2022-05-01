@@ -104,10 +104,6 @@ form {
 }
 
 /* Jumbo */
-.home-jumbo {
-  display: flex;
-}
-
 .home-jumbo div .herotext {
   display: flex;
   flex-direction: column;

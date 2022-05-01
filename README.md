@@ -6,8 +6,9 @@
 ---
 ### Caracteristicas
 
-- Maquetacion HTML semantico
-- Estructura aplicando bootstrap, Flex y Grid
+- Maquetacion HTML semantico.
+- Estructura aplicando bootstrap, Flex y Grid.
+- Se aplican estilos mediante sass utilizando variables mediante maps, mixing y extends.
 - Google Fonts Poppins
 ```
 <link rel="preconnect" href="https://fonts.googleapis.com">

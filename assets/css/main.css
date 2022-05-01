@@ -127,7 +127,11 @@ form {
 }
 
 .card .metodo__img {
-  padding-left: 1rem;
+  padding: 1rem;
+}
+
+.card .metodo__img img {
+  width: 100%;
 }
 
 .card .ribbon {

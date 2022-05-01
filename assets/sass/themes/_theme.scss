@@ -1,6 +1,6 @@
 /* Theme */
 body {
-    background: map-get($color, primario)
+    background: map-get($color, primario);
 }
 
 section {
@@ -13,4 +13,3 @@ section {
 .text {
     justify-content: end;
 }
-

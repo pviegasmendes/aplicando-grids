@@ -1,3 +1,4 @@
+/*  */
 /* Reset */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 * {
@@ -36,6 +37,10 @@ i {
   color: #E6F4F1;
 }
 
+.section__title {
+  margin: 50px 0;
+}
+
 /* Theme */
 body {
   background: #0083B0;
@@ -54,6 +59,7 @@ section {
 
 /* Header */
 header {
+  box-shadow: 5px 5px 15px 5px rgba(18, 18, 18, 0.16);
   height: 60px;
   font-weight: 400;
   font-size: 20px;
@@ -71,7 +77,6 @@ header .navbar-brand {
 
 header nav #navbarNav {
   background-color: #0083B0;
-  padding: 0 0 20px 40px;
   flex-direction: row-reverse;
 }
 
@@ -93,6 +98,7 @@ header nav #navbarNav .a--contacto:hover {
 form {
   color: #121212;
   background-color: #E6F4F1;
+  box-shadow: 5px 5px 15px 5px rgba(18, 18, 18, 0.16);
   padding: 40px;
   border-radius: 5px;
 }
@@ -106,7 +112,7 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   height: 500px;
 }
 
@@ -117,10 +123,65 @@ form {
 /* Cards */
 .card {
   color: #121212;
+  box-shadow: 5px 5px 15px 5px rgba(18, 18, 18, 0.16);
 }
 
 .card .metodo__img {
   padding-left: 1rem;
+}
+
+.card .ribbon {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px;
+  height: 75px;
+  text-align: right;
+}
+
+.card .ribbon span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: #79a70a;
+  background: linear-gradient(#009f81 0%, #49b375 100%);
+  box-shadow: 0 3px 10px -5px black;
+  position: absolute;
+  top: 19px;
+  right: -21px;
+}
+
+.card .ribbon span::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 100%;
+  z-index: -1;
+  border-left: 3px solid #49b375;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #49b375;
+}
+
+.card .ribbon span::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #49b375;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #49b375;
 }
 
 /* Botones */
@@ -130,7 +191,8 @@ form {
 }
 
 .btn:hover, .btn--exito:hover, .btn--error:hover {
-  background-color: #E6F4F1;
+  background-color: #C17500;
+  color: #E6F4F1;
 }
 
 .btn--exito {
@@ -142,11 +204,11 @@ form {
 }
 
 .correo:hover {
-  color: #EC992A;
+  color: #E6F4F1;
 }
 
 .card__btn {
-  background-color: #0083B0;
+  background-color: #EC992A;
 }
 
 /* Home */
@@ -156,10 +218,6 @@ form {
 
 .habilidades__item {
   text-align: center;
-}
-
-.cards {
-  margin-top: 50px;
 }
 
 .titularText {
